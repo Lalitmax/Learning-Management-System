@@ -52,8 +52,10 @@ header {
     
 
 }
+
 #menu-icon {
     display: none;
+    font-size: 3rem;
     color: #FFFFFF;
 }
 .right-menu  ul {
@@ -90,9 +92,16 @@ header {
     border-radius: 10px;
     transition: 0.2s ease;
 }
+
+
 .login:hover{
     
     box-shadow: 0 0 .7rem var(--second-text-color);
+}
+
+#moon {
+    color: var(--text-color);
+    font-size: 2rem;
 }
 .dark {
     display: flex;
@@ -102,8 +111,8 @@ header {
     color: var(--text-color);
     font-weight:bold ;
     font-size: 25px;
-    height: 42px;
-    width: 42px;
+    height: 38px;
+    width: 38px;
     border: 1px solid var(--second-text-color);
     border-radius: 50%;
     transition: 0.2s ease;
@@ -282,27 +291,75 @@ footer {
     color: var(--footer-text-color);
 }
 
-@media (max-width:600px) {
 
-    .header-container {
+@media (max-width:600px) {
+    .maxlearn .iii {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
     
- 
-        margin: 0 1.5rem;
      
+    }
+
+    .maxlearn {
+        padding-top: 10px;
+        gap: 0.4rem;
+        text-align: center;
+    }
+    .explore {
+        height: 140px;
+        margin-bottom: 1rem;
+    }
+    .contact {
+        height: 80px;
+        margin-bottom: 1rem;
+
+    }
+    .reserved-footer {
+        height: 100px;
+        padding-top: 0;
+        width: 80%;
+    }
+    footer {
+       
+        height: 750px;
+        width: 100%;
+       
+    }
+    .footer-content hr {
+        border: none;
+    }
+    .footer-content{
+    
+        height: 1100px;
+        display: grid;
+        margin: 0;
+        width: 100%;
+        
+    }
+
+  /* *************header ************/
+    .header-container {
+        margin: 0 0.2rem; 
     }
     .right-menu{
         display: none;
     }
-    .footer-content{
-        flex-wrap: wrap;
-        /* display: flex; */
-        flex-direction: column;
-    }
-
     #menu-icon {
         display: block;
     }
+    #moon {
+        color: var(--text-color);
+        font-size: 2rem;
+    }
+    .dark {
+        display: block;
+    }
 
+    .dark:hover{
+        
+        box-shadow: 0 0 .7rem var(--second-text-color);
+    }
  
     
 }
