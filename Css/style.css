@@ -19,8 +19,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--main-color);
+    background-image: linear-gradient(90deg, #020024 0%, rgb(33, 57, 101) 50%, var(--main-color) 100%);
     position: fixed;
+    box-shadow: 0 0 .8rem #0ef;
 }
 
 .header-container {
@@ -62,7 +63,7 @@ header {
     display: flex;
     list-style-type: none;
     padding: 5px;
-    width: 60%;
+    width: 70%;
     justify-content: space-around;
 }
 .right-menu  ul li a{
@@ -125,14 +126,33 @@ header {
 /*********************************************** mian-content *********************************************/
 .mian-content {
     display: flex;
-    align-items: center;
-    height: 2600px;
+    justify-content: center;
     width: 100%;
-    border: 1px solid var(--main-color);
-    border-radius: 10px;
-   
+    height: 1000px;
 }
+.content-list {
+    margin-top: 5rem;
+    height: 80%;
+    width: 80%;
+    background: rgb(4, 19, 50);
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
 
+}
+.content-list h2 {
+    color: var(--text-color);
+    background-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif);
+            background-size: cover;
+            background-position: center;
+            -webkit-background-clip:text;
+            background-clip: text;
+            /* -webkit-background-clip:text; */
+            color: transparent;
+
+    
+}
 /****************************************************** Footer ****************************************************/
 footer {
     height :280px;
@@ -341,6 +361,8 @@ footer {
   /* *************header ************/
      header {
     height: 63px;
+    overflow: visible;
+    background-image: linear-gradient(90deg, #020024 0%, rgb(12, 35, 78) 70%, var(--main-color) 100%);
     }
     .header-container {
         margin: 0 0.2rem; 
@@ -363,6 +385,40 @@ footer {
         
         box-shadow: 0 0 .7rem var(--second-text-color);
     }
- 
+    
+
+     .active {
+        top: 3.9rem;
+        display: flex;
+        display: block;
+
+        position: absolute;
+        background-color: var(--main-color);
+        width: 170px;
+        height: 354px;
+        right: -8px;
+        justify-content: center;
+        text-align: center;
+        border-radius: 0 0 0px 15px;
+         
+     }
+     .active ul{
+        display: flex;
+        margin-top: 1.2rem;
+        margin-left:2.1rem ;
+        margin-bottom: 2rem;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-between;
+      
+        /* height: 500px; */
+         
+     }
+     .active .sign-dark{
+        margin-left: 10px;
+        flex-direction: column;
+        gap: 1.5rem;
+     }
+     
     
 }
