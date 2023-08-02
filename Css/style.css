@@ -55,7 +55,7 @@ header {
 
 #menu-icon {
     display: none;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #FFFFFF;
 }
 .right-menu  ul {
@@ -339,6 +339,9 @@ footer {
     }
 
   /* *************header ************/
+     header {
+    height: 50px;
+    }
     .header-container {
         margin: 0 0.2rem; 
     }
