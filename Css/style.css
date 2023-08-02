@@ -126,23 +126,33 @@ header {
 
 /****************************************************** Footer ****************************************************/
 footer {
-    height :250px;
+    height :280px;
     width: 100%;
     background-color: rgb(32, 39, 56);
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 .footer-content {
-    
-    width: 1186px;
-    height: 80%;
+  
+    width: 1086px;
+    height: 180px;
     /* border: 1px solid #fff; */
     display: flex;
+    margin-bottom: 1rem;
     
     justify-content: space-evenly;
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
+    margin-bottom: 1.8rem;
+    
+}
+
+.wd {
+    width: 270px;
+    /* border: 1px solid white; */
+    border-radius: 5px;
     
 }
 .maxlearn {
@@ -151,6 +161,8 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
+    /* border: 2px solid white; */
+    height: 170px;
     
 }
 
@@ -172,7 +184,8 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 80%;
+   
+    height: 170px;
     
 }
 .explore ul {
@@ -182,7 +195,6 @@ footer {
     gap: 0.5rem;
     display: flex;
     flex-direction: column;
-    /* width: 100px; */
 }
 .explore ul a{
 
@@ -195,19 +207,14 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 50%;
+    height: 150px;
 
 }
 .contact a{
     text-decoration: none;
     color: var(--footer-text-color);
 }
-.wd {
-    width: 25%;
-    /* border: 1px solid white; */
-    border-radius: 5px;
-    
-}
+
 .h2-exf {
     text-align: center;
     color: var(--text-color);
@@ -218,13 +225,16 @@ footer {
     flex-direction: column;
     /* justify-content: space-between; */
     gap: 1rem;
+
+    height: 170px;
 }
 .social-media{
     display: flex;
     flex-direction: column;
     /* background-color: red; */
-    height: 60%px;
     gap: 0.3rem;
+    text-align: left;
+    
     width: 40%;
  
    
@@ -251,7 +261,7 @@ footer {
     border: 1px solid var(--second-text-color);
 }
 .social-media a i{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: var(--second-text-color);
     text-align: left;
     transition: .3s ease;
@@ -259,7 +269,15 @@ footer {
     
    
 }
-
+.reserved-footer {
+    height: 20px;
+    padding-top: 1rem;
+    width: 1186px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--text-color);
+}
 .foo-p span{
     color: var(--footer-text-color);
 }
