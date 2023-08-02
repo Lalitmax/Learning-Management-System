@@ -369,6 +369,13 @@ footer {
     }
     .right-menu{
         display: none;
+        justify-content: center;
+        align-items: center;
+        margin-left:-1rem ;
+    }
+    .sign-dark {
+        /* margin: 0; */
+        width: 100%;
     }
     #menu-icon {
         display: block;
@@ -405,7 +412,7 @@ footer {
      .active ul{
         display: flex;
         margin-top: 1.2rem;
-        margin-left:2.1rem ;
+        width: 100%;
         margin-bottom: 2rem;
         flex-direction: column;
         gap: 2rem;
@@ -415,7 +422,7 @@ footer {
          
      }
      .active .sign-dark{
-        margin-left: 10px;
+        /* margin-left: 10px; */
         flex-direction: column;
         gap: 1.5rem;
      }
