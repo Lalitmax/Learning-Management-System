@@ -126,17 +126,19 @@ header {
     box-shadow: 0 0 .7rem var(--second-text-color);
 }
 
-/*********************************************** mian-content *********************************************/
+/********************************************************* mian-content *****************************************************/
 .mian-content {
     display: flex;
     justify-content: center;
-    max-width: 1186px;
+    width: 100%px;
     height: 1000px;
 }
 .content-list {
     margin-top: 5rem;
-    height: 80%;
-    width: 80%;
+    margin-bottom:5px;
+    /* height: 100vh; */
+    max-width: 1186px;
+    width: 98%;
     background: rgb(4, 19, 50);
     border-radius: 18px;
     display: flex;
@@ -156,7 +158,7 @@ header {
 
     
 }
-/****************************************************** Footer ****************************************************/
+/***************************************************************** Footer **********************************************************************/
 footer {
     height :280px;
     width: 100%;
@@ -412,7 +414,7 @@ footer {
     
 
      .active {
-        top: 4.1rem;
+        top: 3.9rem;
         display: flex;
         display: block;
 
@@ -420,11 +422,10 @@ footer {
         background-color: var(--main-color);
         width: 170px;
         height: 354px;
-        right: -3px;
-        box-shadow: 0 0 .4rem  var(--footer-text-color);
+        right: -8px;
         justify-content: center;
         text-align: center;
-        border-radius:15px;
+        border-radius: 0 0 0px 15px;
          
      }
      .active ul{
