@@ -130,33 +130,83 @@ header {
 .mian-content {
     display: flex;
     justify-content: center;
-    width: 100%px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
 }
 .content-list {
-    margin-top: 5rem;
+    margin-top: 4.3rem;
     margin-bottom:5px;
-    /* height: 100vh; */
     max-width: 1186px;
     width: 98%;
-    background: rgb(4, 19, 50);
+    /* border: 2PX solid rgb(4, 4, 35); */
     border-radius: 18px;
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
+    flex-direction: column;
+    gap: 1rem;
 
 }
-.content-list h2 {
-    color: var(--text-color);
-    background-image: url(https://media.tenor.com/lveDtTE8Ek8AAAAM/rainbow-swirls-relaxing.gif);
-            background-size: cover;
-            background-position: center;
-            -webkit-background-clip:text;
-            background-clip: text;
-            /* -webkit-background-clip:text; */
-            color: transparent;
-
+.content-list section {
+    height: 630px;
+    width: 99%;
+    border-radius: 18px;
+    /* border: 2PX solid rgb(4, 4, 35); */
     
+    /* background-color: #fa1ec3; */
+}
+.hero-section {
+    display: flex;
+}
+.left-hero {
+    height: 90%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+}
+.left-hero {
+    height: 90%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding:0 2rem;
+}
+.left-hero h1 {
+    font-size: 35px;
+}
+.left-hero p {
+    font-size: 23px;
+    color: var(--second-text-color);
+}
+.left-hero .btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+.right-hero {
+    height: 90%;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-hero img {
+    width: 100%;
+}
+
+.about-section {
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-section h1 {
+    font-size: 100px;
+    color: var(--text-color);
 }
 /***************************************************************** Footer **********************************************************************/
 footer {
@@ -448,5 +498,18 @@ footer {
      .wd {
         width: 270px;
      }
+     section {
+        height: 100vh;
+     }
+     .hero-section {
+        flex-direction: column;
+    }
+    .left-hero {
+        width: 100%;
+        
+    }
+    .right-hero {
+        width: 100%;
+    }
     
 }
