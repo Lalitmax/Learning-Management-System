@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(90deg, #020024 0%, rgb(33, 57, 101) 50%, var(--main-color) 100%);
+    background-image: linear-gradient(90deg, #020024 0%, rgb(33, 57, 101) 60%, var(--main-color) 100%);
     position: fixed;
     box-shadow: 0 0 .8rem #0ef;
 }
