@@ -215,21 +215,96 @@ header {
 }
 .right-hero img {
     width: 100%;
-    transition: ease-out 0.5s;
 }
-.right-hero img:hover{
-    transform: scale(1.07);
-}
-
 .about-section {
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.about-section h1 {
+
+.left-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 80%;
+    width: 50%;
+    border-radius: 10px;
+    /* min-width: 593px; */
+}
+
+.left-about h1 {
+    font-size: 30px;
+    color: var(--text-color)    ;
+}
+.left-about img {
+    width: 100%;
+    transition: all ease-in 0.3s;
+}
+.left-about img:hover{
+    transform: scale(1.07);
+}
+
+.right-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    /* min-width: 593px; */
+    
+}
+.r-upper {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 70%;
+    background-color: rgb(243, 244, 246);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.r-upper h1 {
+    color: var(--main-color);
+
+
+}
+.r-upper p {
+    color: rgb(127, 115, 115);
+    
+}
+.r-lower {
+    height: 30%;
+    width: 70%;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 244, 246);
+    border-radius: 5px;
+    padding: 15px;
+}
+.r-lower h1 {
+    color: var(--main-color);
+}
+.r-lower p{
+    font-size: medium;
+    color: rgb(139, 125, 125);
+}
+
+.course-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+}
+.course-section h1 {
     font-size: 70px;
     color: var(--text-color);
+    
 }
 /***************************************************************** Footer **********************************************************************/
 footer {
@@ -404,6 +479,7 @@ footer {
 }
 
 
+
 @media (max-width:600px) {
     .maxlearn .iii {
         display: flex;
@@ -540,5 +616,32 @@ footer {
     .right-hero {
         width: 100%;
     }
-    
+
+    .about-section {
+        flex-direction: column;
+        
+    }
+    .left-about {
+
+        width: 100%;
+
+    }
+    .right-about {
+        width: 100%;
+        height: 60%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .r-upper {
+        width: 99%;
+        height: 50%;
+    }
+    .r-lower {
+        height: 50%;
+        width: 99%;
+    }
+    .left-about img {
+        width: 83%;
+
+    }
 }
