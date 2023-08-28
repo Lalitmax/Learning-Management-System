@@ -34,11 +34,3 @@ window.onscroll = () => {
 };
 
 
-// login 
-// var login  = document.querySelector(".login") ;
-// var wrpr = document.querySelector(".wrapper");
-
-// login.addEventListener("click",function(){
-//     wrpr.style.display="block";
-
-// })
