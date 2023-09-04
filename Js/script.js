@@ -34,4 +34,24 @@ window.onscroll = () => {
 };
 
 
-z
+// let rm = document.querySelector('.bx-menu');
+// let rm2 = document.querySelector('.right-menu');
+
+
+//     rm.addEventListener('click', function(){
+//         let st = (rm2.classList)[1];
+//         if('active' === st ){
+//             document.querySelector('.content-list').style.opacity='0.5';
+//             document.querySelector('.content-list').style['z-index'] = '-1';
+
+//         }else{
+//             document.querySelector('.content-list').style.opacity='0.9';
+//         }
+
+    
+//     });
+
+
+       
+
+// document.querySelector('.hero-section').style.overflow='hidden';
