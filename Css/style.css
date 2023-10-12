@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
 :root{
     --main-color:rgb(14, 41, 84);
     --second-color:rgb(31, 110, 140);
@@ -293,19 +295,22 @@ header {
 
 .meet-instructor {
     display: flex;
+    /* height: 1878; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* background-color: var(--main-color); */
+    
+ 
     gap: 1rem;
 }
 
 .instructor {
-    height: 20%;
+    height: 2%;
     width: 100%;
     display: flex;
     align-items: center;
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
 }
 .instructor h1{
     font-size: 42px;
@@ -318,15 +323,37 @@ header {
 }
 
 .instructor-img{
-    height: 80%;
-    width: 100%;
-    padding: 10px;
-
-    border: 5px solid rgb(236, 35, 149);
+    height: 90%;
+    width: 85%;
+    padding: 10px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 1px solid rgb(236, 35, 149); */
+    align-items: center;
 
 }
+.img-name{
+    /* border:2px solid red; */
+    width: 245px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.img-name h1{
+    font-weight: bolder;
+}
+.img-name h3{
+    color: rgb(119, 124, 133);
+}
+
 .img-name img{
-    height: 180px;
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+
 }
 /***************************************************************** Footer **********************************************************************/
 footer {
@@ -658,13 +685,222 @@ footer {
     .r-upper {
         width: 99%;
         height: 50%;
+        overflow: hidden;
     }
     .r-lower {
         height: 50%;
         width: 99%;
+        overflow: hidden;
     }
     .left-about img {
         width: 83%;
 
     }
+
+    .instructor-img{
+        justify-content: center;
+    }
+    .instructor h1{
+        font-size: 26px;
+    }
+
+    /* 8************************ */
+
+    .instructor-img{
+        height: 90%;
+        width: 95%;
+        padding: 10px; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* border: 1px solid rgb(236, 35, 149); */
+        align-items: center;
+    
+    }
+
+    .img-name{
+        /* border:2px solid red; */
+        width: 165px;
+        height: 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .img-name h1{
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    .img-name h3{
+        color: rgb(119, 124, 133);
+
+    }
+    
+    .img-name img{
+        height: 115px;
+        width: 115px;
+        border-radius: 50%;
+    
+    }
+
+  
+}
+
+@media (max-width : 935px) {
+    .img-name{
+    /* border:2px solid red; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.img-name h1{
+    font-weight: bolder;
+    font-size: 22px;
+}
+.img-name h3{
+    color: rgb(119, 124, 133);
+
+}
+
+.img-name img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+    
+}
+
+
+@media (max-width : 872px) {
+
+
+    .img-name{
+    /* border:2px solid red; */
+    width: 174px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.img-name h1{
+    font-weight: bolder;
+    font-size: 19px;
+}
+.img-name h3{
+    color: rgb(119, 124, 133);
+    font-size: 15px;
+
+}
+
+.img-name img{
+    width: 174px;
+    height: 174px;
+    border-radius: 50%;
+
+}
+    
+}
+
+@media (max-width : 668px) {
+    .img-name{
+    /* border:2px solid red; */
+    width: 152px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.img-name h1{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.img-name h3{
+    color: rgb(119, 124, 133);
+    font-size: 11px;
+
+}
+
+.img-name img{
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+
+}
+    
+}
+
+
+@media (max-width : 354px) {
+    .img-name{
+    /* border:2px solid red; */
+    width: 118px;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.img-name h1{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.img-name h3{
+    color: rgb(119, 124, 133);
+    font-size: 8px;
+
+}
+
+.img-name img{
+    width: 118px;
+    height: 117px;
+    border-radius: 50%;
+
+}
+    
+}
+
+
+
+@media (max-width : 282px) {
+    instructor h1 {
+        font-size: 132%;
+    }
+
+    .instructor-img{
+        overflow: hidden;
+    
+    }
+    .img-name{
+    /* border:2px solid red; */
+    width: 221px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.img-name h1{
+    font-weight: bolder;
+    font-size: 14px;
+}
+.img-name h3{
+    color: rgb(119, 124, 133);
+    font-size: 8px;
+
+}
+
+.img-name img{
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+
+}
+    
 }
