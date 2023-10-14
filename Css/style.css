@@ -425,6 +425,7 @@ footer {
     text-align: left;
     gap: 0.5rem;
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 .explore ul a{
@@ -480,7 +481,7 @@ footer {
 }
 .social-media a {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     text-decoration: none;
     color: var(--footer-text-color);
