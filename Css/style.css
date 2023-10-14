@@ -807,6 +807,13 @@ footer {
 }
 
 @media (max-width : 668px) {
+
+    .instructor-img{
+        height: 90%;
+        width: 100%;
+    
+    }
+    
     .img-name{
     /* border:2px solid red; */
     width: 152px;
@@ -836,7 +843,15 @@ footer {
 }
 
 
-@media (max-width : 354px) {
+@media (max-width : 372px) {
+    .instructor-img{
+        height: 90%;
+        width: 95%;
+     
+    
+    }
+
+
     .img-name{
     /* border:2px solid red; */
     width: 118px;
