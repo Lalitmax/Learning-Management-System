@@ -1088,6 +1088,45 @@ footer {
     }
 }
 
+@media (max-width : 364px) {
+
+    .c-img{
+        width: 133px;
+        height: 68px;
+    }
+    
+    .c-img img{
+        height: 30px; 
+    }
+    .company-img {
+  
+        height: 80%;
+    }
+    .microshoft-h img{
+        height: 24px;
+    }
+
+}
+@media (max-width : 314px) {
+
+    .c-img{
+        width: 123px;
+        height: 62px;
+    }
+    
+    .c-img img{
+        height: 33px; 
+    }
+    .company-img {
+  
+        height: 80%;
+    }
+    .microshoft-h img{
+        height: 24px;
+    }
+
+}
+
 
 @media (max-width : 305px) {
 
